@@ -48,3 +48,4 @@ Workflow
  └── Step
       └── Lógica determinística
 ```
+![Agente RAG workflow](fase1/images/agentic-RAG-workflow.jpg)
