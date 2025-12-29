@@ -49,5 +49,5 @@ Workflow
       └── Lógica determinística
 ```
 ![Agente RAG workflow](images/agentic-RAG-workflow.jpg)
-![Header](header.png)
-![Sequencial chains](sequential-chains.webp)
+![Header](images/header.png)
+![Sequencial chains](images/sequential-chains.webp)
