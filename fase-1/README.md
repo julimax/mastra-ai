@@ -33,3 +33,18 @@
 #### Separar inteligencia (LLM) de control (software)
 
 #### 💡 El LLM no decide el flujo, solo aporta razonamiento.
+
+2️⃣ Modelo mental de Mastra (esto es CLAVE)
+
+Pensá Mastra así:
+
+´´´
+Workflow
+ ├── Step
+ │    └── Agent
+ │         └── LLM
+ ├── Step
+ │    └── Tool
+ └── Step
+      └── Lógica determinística
+´´´
