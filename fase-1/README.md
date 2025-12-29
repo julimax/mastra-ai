@@ -38,7 +38,7 @@
 
 Pensá Mastra así:
 
-´´´
+```vbnet
 Workflow
  ├── Step
  │    └── Agent
@@ -47,4 +47,4 @@ Workflow
  │    └── Tool
  └── Step
       └── Lógica determinística
-´´´
+```
