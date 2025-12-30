@@ -163,3 +163,63 @@ Ventajas:
 ![pull request](images/pull_request.png)
 ![diagrama-start-call](images/diagrama-start-call.png)
 ![state machines for workflows context](images/State-Machines-for-Workflow-Context.webp)
+
+---
+
+## 7️⃣ Ejemplo completo (conceptual, sin lenguaje)
+
+### Caso: CI Fixflow básico
+
+#### Workflow: ci-failure-handler
+
+1. Input: logs, repo, branch
+
+2. Step: classify-error (agent)
+
+3. Step: validate-classification
+
+4. Switch:
+
+    - BUILD → build-fix-flow
+    - TEST → test-fix-flow
+    - INFRA → infra-review
+
+5. Step: report-result
+
+👉 El workflow nunca improvisa.
+
+---
+
+### 8️⃣ Anti-patterns de workflows (evitalos)
+
+🚫 Workflow con 1 step gigante
+
+🚫 Branching dentro del agent
+
+🚫 LLM decidiendo acciones destructivas
+
+🚫 Estado implícito
+
+🚫 Retry infinito
+
+---
+
+### 9️⃣ Ejercicio práctico (muy importante)
+
+Diseñá en texto este workflow:
+
+- Workflow: pr-auto-review
+
+Definí:
+
+- Inputs
+
+- Steps (ordenados)
+
+- Dónde hay branching
+
+- Qué pasa si falla un agent
+
+- Output final
+
+No código. Arquitectura.
