@@ -280,7 +280,7 @@ B) Lista de Agents
 
 nombre + responsabilidad + output
 
-C) Lista de Tools
+C) Lista de Tools 
 
 nombre + guardrails
 
